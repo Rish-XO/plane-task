@@ -14,5 +14,11 @@ function minimumPlanes(fuelArray) {
     }
   }
   
-  return planesRequired;
+  return planesRequired; // returning the number of planes
 }
+
+
+// sample question checking
+
+console.log(minimumPlanes([1,2,1,3,0,0])); // prints 3
+console.log(minimumPlanes([1,1,0,0,0]))    // prints -1
